@@ -26,7 +26,8 @@ const LineBotConfig = require('./linebotconfig');
 const REST_PORT = (process.env.PORT || 5000);
 const DEV_CONFIG = process.env.DEVELOPMENT_CONFIG == 'true';
 
-const APIAI_ACCESS_TOKEN = process.env.APIAI_ACCESS_TOKEN;
+//const APIAI_ACCESS_TOKEN = process.env.APIAI_ACCESS_TOKEN;
+const APIAI_ACCESS_TOKEN = "1cfeddfa91c441e7aca420135106a4c2";
 const APIAI_LANG = process.env.APIAI_LANG;
 
 const LINE_CHANNEL_ID = process.env.LINE_CHANNEL_ID;
