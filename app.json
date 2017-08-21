@@ -7,7 +7,7 @@
   "env": {
     "APIAI_ACCESS_TOKEN": {
       "description": "Client access token for Api.ai",
-      "value": ""
+      "value": "1cfeddfa91c441e7aca420135106a4c2"
     },
     "APIAI_LANG": {
       "description": "Agent language",
