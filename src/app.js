@@ -27,12 +27,16 @@ const REST_PORT = (process.env.PORT || 5000);
 const DEV_CONFIG = process.env.DEVELOPMENT_CONFIG == 'true';
 
 //const APIAI_ACCESS_TOKEN = process.env.APIAI_ACCESS_TOKEN;
+//const APIAI_LANG = process.env.APIAI_LANG;
 const APIAI_ACCESS_TOKEN = "1cfeddfa91c441e7aca420135106a4c2";
-const APIAI_LANG = process.env.APIAI_LANG;
+const APIAI_LANG = "en";
 
-const LINE_CHANNEL_ID = process.env.LINE_CHANNEL_ID;
-const LINE_CHANNEL_SECRET = process.env.LINE_CHANNEL_SECRET;
-const LINE_CHANNEL_ACCESS_TOKEN = process.env.LINE_CHANNEL_ACCESS_TOKEN;
+//const LINE_CHANNEL_ID = process.env.LINE_CHANNEL_ID;
+//const LINE_CHANNEL_SECRET = process.env.LINE_CHANNEL_SECRET;
+//const LINE_CHANNEL_ACCESS_TOKEN = process.env.LINE_CHANNEL_ACCESS_TOKEN;
+const LINE_CHANNEL_ID = "1525452479";
+const LINE_CHANNEL_SECRET = "41f3872aa01daaadcaa926ea8b7a7e6e";
+const LINE_CHANNEL_ACCESS_TOKEN = "nvRLh8ajD6jZPrsPfGJssg8SaUyDfNVZfrWkAP91g00PrL5NGa47bWn6E2juc3GeED6DDTrbkmf7Qofpfl6HA/GBFY+IBwxXu29eUtCTajNscuEkCNMX0wfdfGc5UKUmpMwj86eKswXwMp1/q1ISrwdB04t89/1O/w1cDnyilFU=";
 
 // console timestamps
 require('console-stamp')(console, 'yyyy.mm.dd HH:MM:ss.l');
